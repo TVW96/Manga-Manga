@@ -1,0 +1,21 @@
+
+
+.sideNav-container {
+position: absolute;
+height: 100vh;
+display: flex;
+justify-content: flex-start;
+ ul {
+   padding-top: 20px;
+   height: 100vh;
+   li {
+     padding-top: 20px;
+     list-style: none;
+   }
+ }
+}
+
+.sideNav-title {
+  display: flex;
+  justify-content: center;
+}

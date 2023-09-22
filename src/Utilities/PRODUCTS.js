@@ -1,0 +1,92 @@
+export const PRODUCTS = [
+	{
+		id: 1,
+		name: "Inuyasha, Vol.1",
+		price: 999,
+		image: "./Assets/Inuyasha/Inuyasha-1.jpg",
+	},
+	{
+		id: 2,
+		name: "Inuyasha, Vol.2",
+		price: 999,
+		image: "./Assets/Inuyasha/Inuyasha-2.jpg",
+	},
+	{
+		id: 3,
+		name: "Inuyasha, Vol.3",
+		price: 999,
+		image: "./Assets/Inuyasha/Inuyasha-3.jpg",
+	},
+	{
+		id: 4,
+		name: "Naruto, Vol.1",
+		price: 999,
+		image: "./Assets/Naruto/Naruto-1.jpg",
+	},
+	{
+		id: 5,
+		name: "Naruto, Vol.2",
+		price: 999,
+		image: "./Assets/Naruto/Naruto-2.jpg",
+	},
+	{
+		id: 6,
+		name: "Naruto, Vol.3",
+		price: 999,
+		image: "./Assets/Naruto/Naruto-3.jpg",
+	},
+	{
+		id: 7,
+		name: "Shaman King, Vol.1",
+		price: 999,
+		image: "./Assets/ShamanKing/ShamanKing-1.jpg",
+	},
+	{
+		id: 8,
+		name: "Shaman King, Vol.2",
+		price: 999,
+		image: "./Assets/ShamanKing/ShamanKing-2.jpg",
+	},
+	{
+		id: 9,
+		name: "Shaman King, Vol.3",
+		price: 999,
+		image: "./Assets/ShamanKing/ShamanKing-3.jpg",
+	},
+	{
+		id: 10,
+		name: "Bleach, Vol.1",
+		price: 999,
+		image: "./Assets/Bleach/Bleach-1.jpg",
+	},
+	{
+		id: 11,
+		name: "Bleach, Vol.2",
+		price: 999,
+		image: "./Assets/Bleach/Bleach-2.jpg",
+	},
+	{
+		id: 12,
+		name: "Bleach, Vol.3",
+		price: 999,
+		image: "./Assets/Bleach/Bleach-3.jpg",
+	},
+	{
+		id: 13,
+		name: "One Piece, Vol.1",
+		price: 999,
+		image: "./Assets/One Piece/Onepiece-1.jpg",
+	},
+	{
+		id: 14,
+		name: "One Piece, Vol.2",
+		price: 999,
+		image: "./Assets/One Piece/Onepiece-2.jpg",
+	},
+	{
+		id: 15,
+		name: "One Piece, Vol.3",
+		price: 999,
+		image: "./Assets/One Piece/Onepiece-3.jpg",
+	},
+];

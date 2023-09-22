@@ -1,0 +1,104 @@
+
+.shop {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 26px;
+  width: 100%;
+  justify-content: center;
+  z-index: 0;
+}
+
+.hero {
+    /* Photo by mnm.all on Unsplash */
+    margin-top: 20px;
+    background: url('./naruto_banner.jpg') center;
+    background-size: cover;
+    padding: 4rem 2rem;
+  
+    /* Grid styles */
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.shopTitle {
+  text-align: center;
+  font-size: 19px;
+  margin-top: 16px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-gap: 1rem;
+}
+
+.product {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    width: auto;
+    height: auto;
+    max-height: 250px;
+    max-width: 250px;
+  }
+  .image {
+    position: relative;
+  }
+  .text-hover {
+    position: fixed;
+    top:50%;
+    opacity: 0;
+  }
+  .imsg
+  .image:hover {
+    opacity: 0.3;
+    cursor: pointer;
+  }
+  .description {
+  }
+}
+
+
+.btn:hover{
+  transition: 0.1s ease-in;
+  cursor: pointer;
+  color: teal;
+}
+
+// .addToCartBttn {
+//   background-color: transparent;
+//   border: 2px solid rgb(19, 19, 19);
+//   min-width: 100px;
+//   padding-left: 10px;
+//   padding-right: 10px;
+//   padding-top: 5px;
+//   padding-bottom: 5px;
+//   border-radius: 15px;
+// }
+
+// .addToCartBttn:hover {
+//   background-color: rgb(19, 19, 19);
+//   color: white;
+//   cursor: pointer;
+// }
+
+
+
+
+// @media screen and (min-width: 1200px) {
+//   .products {
+//     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+//   }
+// }
+// @media screen and (min-width: 1024px){
+//   .products {
+//     grid-template-columns: 1fr 1fr 1fr 1fr;
+//   }
+// }
+// @media screen and (min-width: 768px) {
+
+// }
