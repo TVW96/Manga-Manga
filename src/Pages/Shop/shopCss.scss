@@ -1,16 +1,25 @@
 
+.fullPage {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu menu main main main main';
+}
+
 .shop {
   display: flex;
   flex-direction: column;
   position: relative;
-  margin-top: 26px;
-  width: 100%;
+  margin-top: auto;
+  width: auto;
   justify-content: center;
   z-index: 0;
+  grid-area: main;
 }
 
 .hero {
     /* Photo by mnm.all on Unsplash */
+    grid-area: header;
     margin-top: 20px;
     background: url('./naruto_banner.jpg') center;
     background-size: cover;
@@ -20,12 +29,22 @@
     display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    p {
+      display: flex;
+      justify-content: center;
+      padding-right: 580px;
+    }
+}
+
+.menu {
+  grid-area: menu;
 }
 
 .shopTitle {
   text-align: center;
   font-size: 19px;
   margin-top: 16px;
+
 }
 
 .products {
@@ -35,7 +54,6 @@
 }
 
 .product {
-  padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;

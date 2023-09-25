@@ -5,6 +5,7 @@ import "./Navbar.scss";
 const navbar = () => {
 	return (
 		<div className="navbar">
+			<h2>Manga.Manga</h2>
 			<div className="links">
 				<Link to="/development">Development</Link>
 				<Link to="/">Shop</Link>

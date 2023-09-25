@@ -7,7 +7,6 @@ const Developer = () => {
 	return (
 		<div>
 			<SideNav data={PRODUCTS} />
-			<Filter />
 		</div>
 	);
 };

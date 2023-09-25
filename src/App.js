@@ -6,6 +6,7 @@ import Shop from "./Pages/Shop/Shop";
 import Cart from "./Pages/Cart/Cart.jsx";
 import { ShopContextProvider } from "./Context/shop-context.jsx";
 import Developer from "./Pages/Developer";
+import SideNav from "./Components/SideNav";
 
 function App() {
 	return (
@@ -13,11 +14,13 @@ function App() {
 			<ShopContextProvider>
 				<BrowserRouter>
 					<Navbar />
-					<Routes>
-						<Route path="/" element={<Shop />} />
-						<Route path="/cart" element={<Cart />} />
-						<Route path="/development" element={<Developer />} />
-					</Routes>
+					<div className="grid-shop">
+						<Routes>
+							<Route path="/" element={<Shop />} />
+							<Route path="/cart" element={<Cart />} />
+							<Route path="/development" element={<Developer />} />
+						</Routes>
+					</div>
 				</BrowserRouter>
 			</ShopContextProvider>
 		</div>

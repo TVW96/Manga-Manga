@@ -89,4 +89,22 @@ export const PRODUCTS = [
 		price: 999,
 		image: "./Assets/One Piece/Onepiece-3.jpg",
 	},
+	{
+		id: 16,
+		name: "Full Metal Alchemist, Vol.1",
+		price: 999,
+		image: "./Assets/Full Metal Alchemist/FMA-1.jpg",
+	},
+	{
+		id: 17,
+		name: "Full Metal Alchemist, Vol.2",
+		price: 999,
+		image: "./Assets/Full Metal Alchemist/FMA-2.jpg",
+	},
+	{
+		id: 18,
+		name: "Full Metal Alchemist, Vol.3",
+		price: 999,
+		image: "./Assets/Full Metal Alchemist/FMA-3.jpg",
+	},
 ];
